@@ -1,0 +1,46 @@
+.button {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.button>svg {
+  margin-right: 7px;
+}
+
+.label-btn,
+.label-icon {
+  padding: 10px 20px;
+}
+
+.icon {
+  border-radius: 4px;
+  padding: 10px 11px;
+}
+
+.icon-circle {
+  border-radius: 100px;
+}
+
+.primary {
+  background-color: #6E41E2;
+  color: #FFFFFF;
+}
+
+.primary:hover {
+  background-color: #5835B0;
+}
+
+.primary:active {
+  background-color: #472C8A;
+}
+
+.primary:focus {
+  background-color: #6E41E2;
+  border: 2px solid var(--colors-gray, rgba(17, 17, 17, 0.48));
+}
+
+.primary:disabled {
+  background-color: #E3DAF9;
+}
