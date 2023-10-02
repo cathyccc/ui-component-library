@@ -1,8 +1,19 @@
-# React + Vite
+#UI Component Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###Description:
 
-Currently, two official plugins are available:
+This repository contains a React component library built based on the designs from the Browk UI KIT (Community) in Figma. It aims to provide a collection of reusable UI components that can be easily integrated into your React applications, maintaining a consistent and visually appealing user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+###Features:
+
+• Reusable UI components
+• Built with React
+• Based on the Browk UI KIT (Community) designs
+
+###Usage:
+
+1. Clone this repository: git clone https://github.com/cathyccc/ui-component-library.git
+2. Install dependencies: npm install or yarn install
+3. Import and use components in your React application.
+
+
