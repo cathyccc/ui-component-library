@@ -15,5 +15,3 @@ This repository contains a React component library built based on the designs fr
 1. Clone this repository: git clone https://github.com/cathyccc/ui-component-library.git
 2. Install dependencies: npm install or yarn install
 3. Import and use components in your React application.
-
-
