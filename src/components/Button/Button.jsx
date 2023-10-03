@@ -1,4 +1,3 @@
-import React from "react"
 import PropTypes from 'prop-types'
 import "./button.css"
 import clsx from 'clsx'
@@ -23,7 +22,7 @@ export default function Button({children, loader=false, variant="primary", type=
 }
 
 Button.propTypes = {
-  children: PropTypes.elementType,
+  children: PropTypes.node,
   type: PropTypes.oneOf(["label", "label-icon", "icon", "icon-circle"]),
   loader: PropTypes.bool,
   variant: PropTypes.oneOf(["primary", "primary-white", "secondary", "secondary-white", "flat", "flat-white"]),
