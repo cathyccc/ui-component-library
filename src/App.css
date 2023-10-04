@@ -1,3 +1,24 @@
+:root {
+  --colors-primary: #6E41E2;
+  --colors-primary-disabled: #E3DAF9;
+  --colors-primary-hover: #5835B0;
+  --colors-primary-active: #472C8A;
+  --colors-white: #FFF;
+  --colors-white-s: rgba(255, 255, 255, 0.88);
+  --colors-gray-m: #FAFAFA;
+  --colors-gray-l: #F1F1F1;
+  --colors-gray-s: #D4D4D4;
+  --colors-gray: rgba(17, 17, 17, 0.48);
+  --colors-gray-k: #6B6B6B;
+  --colors-black: #111;
+  --colors-red-girl: #F9E3E3;
+  --colors-red-boy: #F2CACA;
+  --colors-red: #DB524E;
+  --colors-super-red: #C7302B;
+  --colors-green: #27AE60;
+  --colors-blue: #428BF9;
+}
+
 body {
   font-family: Roboto;
   text-align: center;
@@ -80,9 +101,13 @@ section {
   margin: auto;
 }
 
-.purple {
-  background-color: #6E41E2;
+.section-purple {
+  background-color: var(--colors-primary);
   padding: 1.5em 0;
+}
+
+.section-2 {
+  padding: 2rem 15em;
 }
 
 p.btn-label {
