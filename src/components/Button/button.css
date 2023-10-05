@@ -8,6 +8,7 @@
 
 .label-btn.loader {
   padding: 8px 30px;
+  pointer-events: none;
 }
 
 .button>svg,
@@ -106,6 +107,52 @@
 }
 
 .primary-white:disabled {
+  opacity: 0.56;
+  pointer-events: none;
+}
+
+.secondary {
+  background-color: #FFFFFF;
+  border: 2px solid #6E41E2;
+  color: #6E41E2;
+}
+
+.secondary:hover {
+  background: rgba(110, 65, 226, 0.04);
+}
+
+.secondary:active {
+  background: rgba(110, 65, 226, 0.16);
+}
+
+.secondary:focus {
+  border: 2px solid rgba(17, 17, 17, 0.48);
+}
+
+.secondary:disabled {
+  opacity: 0.56;
+  pointer-events: none;
+}
+
+.secondary-white {
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+  background-color: #6E41E2;
+}
+
+.secondary-white:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.secondary-white:active {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.secondary-white:focus {
+  border: 2px solid rgba(17, 17, 17, 0.48);
+}
+
+.secondary-white:disabled {
   opacity: 0.56;
   pointer-events: none;
 }
