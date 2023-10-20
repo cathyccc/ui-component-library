@@ -3,7 +3,7 @@ import "./button.css"
 import clsx from 'clsx'
 import {LuLoader2} from "react-icons/lu"
 
-export default function Button({children, loader=false, variant="primary", type="label", className, ...otherProps}) {
+export default function Button({children, size="md", loader=false, variant="primary", type="label", className, ...otherProps}) {
 
   let labelTypeClass = type === "label" ? "label-btn" : `${type}`
   let variantClass = variant && `${variant}`
@@ -12,7 +12,7 @@ export default function Button({children, loader=false, variant="primary", type=
     children = <LuLoader2/>
   }
 
-  const allClasses = clsx(className, variantClass, labelTypeClass, "button")
+  const allClasses = clsx(className, variantClass, labelTypeClass, size, "button")
 
   return(
     <button className={allClasses} {...otherProps}>
@@ -23,9 +23,10 @@ export default function Button({children, loader=false, variant="primary", type=
 
 Button.propTypes = {
   children: PropTypes.node,
-  type: PropTypes.oneOf(["label", "label-icon", "icon", "icon-circle"]),
+  type: PropTypes.oneOf(["label", "label-icon", "icon"]),
   loader: PropTypes.bool,
-  variant: PropTypes.oneOf(["primary", "primary-white", "secondary", "secondary-white", "flat", "flat-white"]),
+  size: PropTypes.oneOf(["sm", "md", "lg", "xl", "xxl"]).isRequired,
+  variant: PropTypes.oneOf(["primary", "secondary", "secondary-gray", "tertiary"]).isRequired,
   className: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.object

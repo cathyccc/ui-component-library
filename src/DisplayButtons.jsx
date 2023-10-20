@@ -11,21 +11,21 @@ export default function DisplayButtons () {
           <div>
             <span className="btn-container">
               <p className="btn-label">Label</p>
-              <Button variant="primary" type="label" onClick={() => console.log("clicked")}>
+              <Button variant="primary" size="sm" type="label" onClick={() => console.log("clicked")}>
                 Register
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Disabled</p>
-              <Button variant="primary" type="label" disabled>
+              <Button variant="primary" size="sm" type="label" disabled>
                 Submit
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Label Icon</p>
-              <Button variant="primary" type="label-icon">
+              <Button variant="primary" size="sm" type="label-icon">
                 <LuPlus/>
                 Add Item
               </Button>
@@ -35,21 +35,21 @@ export default function DisplayButtons () {
           <div>
             <span className="btn-container">
               <p className="btn-label">Icon</p>
-              <Button variant="primary" type="icon">
+              <Button variant="primary" size="md" type="icon">
                 <LuPlus/>
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Icon Circle</p>
-              <Button variant="primary" type="icon-circle">
+              <Button variant="primary" size="md" type="icon-circle">
                 <LuPlus/>
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Loader</p>
-              <Button variant="primary" type="label" loader={true}/>
+              <Button variant="primary" size="md" type="icon" loader={true}/>
             </span>
           </div>
         </div>
@@ -59,21 +59,21 @@ export default function DisplayButtons () {
           <div>
             <span className="btn-container">
               <p className="btn-label">Label</p>
-              <Button variant="secondary" type="label" onClick={() => console.log("clicked")}>
+              <Button variant="secondary" size="md" type="label" onClick={() => console.log("clicked")}>
                 Register
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Disabled</p>
-              <Button variant="secondary" type="label" disabled>
+              <Button variant="secondary" size="md" type="label" disabled>
                 Submit
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Label Icon</p>
-              <Button variant="secondary" type="label-icon">
+              <Button variant="secondary" size="md" type="label-icon">
                 <LuPlus/>
                 Add Item
               </Button>
@@ -83,21 +83,21 @@ export default function DisplayButtons () {
           <div>
             <span className="btn-container">
               <p className="btn-label">Icon</p>
-              <Button variant="secondary" type="icon">
+              <Button variant="secondary" size="md" type="icon">
                 <LuPlus/>
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Icon Circle</p>
-              <Button variant="secondary" type="icon-circle">
+              <Button variant="secondary" size="md" type="icon-circle">
                 <LuPlus/>
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Loader</p>
-              <Button variant="secondary" type="label" loader={true}/>
+              <Button variant="secondary" size="md" type="icon" loader={true}/>
             </span>
           </div>
         </div>
@@ -107,21 +107,21 @@ export default function DisplayButtons () {
           <div>
             <span className="btn-container">
               <p className="btn-label">Label</p>
-              <Button variant="secondary-gray" type="label" onClick={() => console.log("clicked")}>
+              <Button variant="secondary-gray" size="md" type="label" onClick={() => console.log("clicked")}>
                 Get Started
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Disabled</p>
-              <Button variant="secondary-gray" type="label" disabled>
+              <Button variant="secondary-gray" size="md" type="label" disabled>
                 Continue
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Label Icon</p>
-              <Button variant="secondary-gray" type="label-icon">
+              <Button variant="secondary-gray" size="md" type="label-icon">
                 <LuPlus/>
                 Add Note
               </Button>
@@ -131,21 +131,21 @@ export default function DisplayButtons () {
           <div>
             <span className="btn-container">
               <p className="btn-label">Icon</p>
-              <Button variant="secondary-gray" type="icon">
+              <Button variant="secondary-gray" size="md" type="icon">
                 <LuPlus/>
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Icon Circle</p>
-              <Button variant="secondary-gray" type="icon-circle">
+              <Button variant="secondary-gray" size="md" type="icon-circle">
                 <LuPlus/>
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Loader</p>
-              <Button variant="secondary-gray" type="label" loader={true}/>
+              <Button variant="secondary-gray" size="md" type="icon" loader={true}/>
             </span>
           </div>
         </div>
@@ -155,21 +155,21 @@ export default function DisplayButtons () {
           <div>
             <span className="btn-container">
               <p className="btn-label">Label</p>
-              <Button variant="tertiary" type="label" onClick={() => console.log("clicked")}>
+              <Button variant="tertiary" size="md" type="label" onClick={() => console.log("clicked")}>
                 Get Started
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Disabled</p>
-              <Button variant="tertiary" type="label" disabled>
+              <Button variant="tertiary" size="md" type="label" disabled>
                 Continue
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Label Icon</p>
-              <Button variant="tertiary" type="label-icon">
+              <Button variant="tertiary" size="md" type="label-icon">
                 <LuPlus/>
                 Add Note
               </Button>
@@ -179,21 +179,21 @@ export default function DisplayButtons () {
           <div>
             <span className="btn-container">
               <p className="btn-label">Icon</p>
-              <Button variant="tertiary" type="icon">
+              <Button variant="tertiary" size="md" type="icon">
                 <LuPlus/>
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Icon Circle</p>
-              <Button variant="tertiary" type="icon-circle">
+              <Button variant="tertiary" size="md" type="icon-circle">
                 <LuPlus/>
               </Button>
             </span>
 
             <span className="btn-container">
               <p className="btn-label">Loader</p>
-              <Button variant="tertiary" type="label" loader={true}/>
+              <Button variant="tertiary" size="md" type="icon" loader={true}/>
             </span>
           </div>
         </div>
