@@ -150,7 +150,7 @@ export default function DisplayButtons () {
           </div>
         </div>
 
-        <div className="section-item section-purple white">
+        <div className="section-item">
           <h6>Tertiary</h6>
           <div>
             <span className="btn-container">

@@ -23,7 +23,7 @@ export default function Button({children, size="md", loader=false, variant="prim
 
 Button.propTypes = {
   children: PropTypes.node,
-  type: PropTypes.oneOf(["label", "label-icon", "icon"]),
+  type: PropTypes.oneOf(["label", "icon-circle", "label-icon", "icon"]),
   loader: PropTypes.bool,
   size: PropTypes.oneOf(["sm", "md", "lg", "xl", "xxl"]).isRequired,
   variant: PropTypes.oneOf(["primary", "secondary", "secondary-gray", "tertiary"]).isRequired,
