@@ -1,6 +1,7 @@
 import './App.css'
 import DisplayButtons from './DisplayButtons'
 import DisplayAvatars from './DisplayAvatars'
+import DisplayNav from './DisplayNav'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <h3>UI Components</h3>
       <DisplayButtons/>
       <DisplayAvatars/>
+      <DisplayNav/>
     </>
   )
 }
